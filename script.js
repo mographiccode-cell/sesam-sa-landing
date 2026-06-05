@@ -11,6 +11,10 @@
 (function () {
   'use strict';
 
+  // ===== Mark html as JS-enabled so .reveal can hide elements safely =====
+  // (Without this class, .reveal is a no-op and all content stays visible.)
+  document.documentElement.classList.add('js-revealing');
+
   // ===== Sticky header on scroll =====
   const header = document.getElementById('siteHeader');
   if (header) {
