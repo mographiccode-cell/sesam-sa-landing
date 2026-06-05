@@ -64,45 +64,42 @@
   }
 
   // ===== Reveal on scroll (below-the-fold elements) =====
-  const revealTargets = [
-    '.section-head',
-    '.craft-grid > article',
-    '.reels-grid > figure',
-    '.gallery-card',
-    '.why-grid > div',
-    '.about-images',
-    '.about-text',
-    '.visit-info',
-    '.visit-hours',
-    '.final-cta-inner',
-    '.footer-grid > div',
-    '.faq-list details',
-    '.hero-side',
-  ];
-  const revealEls = document.querySelectorAll(revealTargets.join(','));
-  revealEls.forEach(el => el.classList.add('reveal'));
+  // Find all elements that ALREADY have the .reveal class in the HTML
+  // (works regardless of which Tailwind/styling classes they're using).
+  const revealEls = document.querySelectorAll('.reveal');
 
-  if ('IntersectionObserver' in window) {
+  if ('IntersectionObserver' in window && revealEls.length) {
     const io = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry, i) => {
+        entries.forEach((entry) => {
           if (entry.isIntersecting) {
             // Slight stagger for siblings of the same parent
-            const siblings = entry.target.parentElement
-              ? Array.from(entry.target.parentElement.children).filter(c => c.classList.contains('reveal'))
+            const parent = entry.target.parentElement;
+            const siblings = parent
+              ? Array.from(parent.children).filter(c => c.classList.contains('reveal'))
               : [];
             const idx = siblings.indexOf(entry.target);
-            const delay = idx > 0 ? Math.min(idx * 60, 280) : 0;
+            const delay = idx > 0 ? Math.min(idx * 50, 250) : 0;
             entry.target.style.transitionDelay = `${delay}ms`;
             entry.target.classList.add('is-visible');
             io.unobserve(entry.target);
           }
         });
       },
-      { threshold: 0.08, rootMargin: '0px 0px -40px 0px' }
+      { threshold: 0.05, rootMargin: '0px 0px -20px 0px' }
     );
     revealEls.forEach(el => io.observe(el));
+
+    // Safety net: if the user has scrolled past sections quickly
+    // (e.g. anchor jump) the IO might not fire. After 4s, force-show
+    // any remaining hidden elements so nothing is permanently invisible.
+    setTimeout(() => {
+      document.querySelectorAll('.reveal:not(.is-visible)').forEach(el => {
+        el.classList.add('is-visible');
+      });
+    }, 4000);
   } else {
+    // No IO support or no elements — just show everything
     revealEls.forEach(el => el.classList.add('is-visible'));
   }
 
