@@ -59,7 +59,7 @@
     '.about-images',
     '.visit-info',
     '.visit-hours',
-    '.hero-content > *',
+    '.hero-side',
     '.final-cta-inner > *',
     '.footer-grid > *',
     '.faq-list details',
@@ -84,6 +84,49 @@
   } else {
     // Fallback for very old browsers
     elements.forEach(el => el.classList.add('is-visible'));
+  }
+
+  // ===== Hero counter animation =====
+  const animateCount = (el) => {
+    const target = parseInt(el.dataset.count, 10);
+    if (!target) return;
+    const suffix = el.dataset.suffix || '';
+    const dur = 1600;
+    const start = performance.now();
+    const fmt = (n) => {
+      if (target >= 1000) {
+        // 35000 -> "35,000"
+        const rounded = Math.round(n);
+        return rounded.toLocaleString('en-US') + suffix;
+      }
+      return Math.round(n) + suffix;
+    };
+    const tick = (now) => {
+      const t = Math.min(1, (now - start) / dur);
+      // ease-out cubic
+      const eased = 1 - Math.pow(1 - t, 3);
+      el.textContent = fmt(target * eased);
+      if (t < 1) requestAnimationFrame(tick);
+      else el.textContent = fmt(target);
+    };
+    requestAnimationFrame(tick);
+  };
+
+  const counterEls = document.querySelectorAll('[data-count]');
+  if (counterEls.length) {
+    if ('IntersectionObserver' in window) {
+      const co = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateCount(entry.target);
+            co.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.4 });
+      counterEls.forEach(el => co.observe(el));
+    } else {
+      counterEls.forEach(animateCount);
+    }
   }
 
   // ===== Stagger reveals in grids =====

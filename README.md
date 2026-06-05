@@ -23,7 +23,7 @@ All visual assets (photos, videos, avatar) are sourced from the account's public
 
 ```
 sesam.sa/
-├── landing-page.html      # Main page
+├── index.html             # Main page (named index.html for GitHub Pages root)
 ├── styles.css             # All styles (design tokens, sections, responsive)
 ├── script.js              # Interactions: nav, scroll, gallery carousel, parallax
 ├── README.md
@@ -97,7 +97,7 @@ link in the corner for the full version with sound.
 
 ```sh
 # Open directly in browser
-start landing-page.html
+start index.html
 # Or serve with any static server
 python -m http.server 8000
 # → http://localhost:8000
