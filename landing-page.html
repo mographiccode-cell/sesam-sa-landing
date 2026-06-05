@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SESAM · سيسام — مخبز حرفي في جدة</title>
+  <meta name="description" content="سيسام · مخبوزات حرفية تُحضّر يوميًا بكل حب في المحمدية، جدة. كرواسون، دانش، إكلير، ومشروبات مميّزة." />
+  <meta name="theme-color" content="#fbf6f0" />
+  <link rel="icon" type="image/jpeg" href="images/profile/avatar.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- =================== HEADER =================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="SESAM · سيسام">
+        <span class="brand-mark">
+          <img src="images/profile/avatar.jpg" alt="SESAM logo" />
+        </span>
+        <span class="brand-text">
+          <span class="brand-name-ar">سيسام</span>
+          <span class="brand-name-en">SESAM</span>
+        </span>
+      </a>
+      <nav class="primary-nav" aria-label="القائمة الرئيسية">
+        <a href="#about">حكاية سيسام</a>
+        <a href="#craft">صنعتنا</a>
+        <a href="#reels">من الكواليس</a>
+        <a href="#gallery">المعرض</a>
+        <a href="#why">لماذا سيسام</a>
+        <a href="#visit">زورونا</a>
+      </nav>
+      <a href="https://www.instagram.com/sesam.sa/" target="_blank" rel="noopener" class="btn btn-outline header-cta">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.07 1.25.07 1.65.07 4.85s0 3.6-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.25.07-1.65.07-4.85.07s-3.6 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.43-.36-1.06-.41-2.23C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.15 0-3.5 0-4.74.07-1.07.05-1.65.23-2.04.38-.51.2-.88.44-1.27.83-.39.39-.63.76-.83 1.27-.15.39-.33.97-.38 2.04C2.67 8.5 2.67 8.85 2.67 12s0 3.5.07 4.74c.05 1.07.23 1.65.38 2.04.2.51.44.88.83 1.27.39.39.76.63 1.27.83.39.15.97.33 2.04.38 1.24.07 1.59.07 4.74.07s3.5 0 4.74-.07c1.07-.05 1.65-.23 2.04-.38.51-.2.88-.44 1.27-.83.39-.39.63-.76.83-1.27.15-.39.33-.97.38-2.04.07-1.24.07-1.59.07-4.74s0-3.5-.07-4.74c-.05-1.07-.23-1.65-.38-2.04-.2-.51-.44-.88-.83-1.27-.39-.39-.76-.63-1.27-.83-.39-.15-.97-.33-2.04-.38C15.5 4 15.15 4 12 4zm0 3.05a4.95 4.95 0 1 1 0 9.9 4.95 4.95 0 0 1 0-9.9zm0 1.8a3.15 3.15 0 1 0 0 6.3 3.15 3.15 0 0 0 0-6.3zm5.18-2.04a1.16 1.16 0 1 1 0 2.32 1.16 1.16 0 0 1 0-2.32z"/></svg>
+        <span>تابعونا</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- =================== HERO =================== -->
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-bg-img" style="background-image:url('images/posts/sesam_brunch.jpg')"></div>
+      <div class="hero-bg-overlay"></div>
+    </div>
+    <div class="container hero-content">
+      <span class="eyebrow">مخبز حرفي · جدة</span>
+      <h1 class="hero-title">
+        <span class="hero-ar">طبقات تُروى على مهل.</span>
+        <span class="hero-en">Every layer tells a story.</span>
+      </h1>
+      <p class="hero-sub">
+        من قلب المحمدية، نُخبز معجناتنا يوميًا بكل حب — كرواسون، دانش، إكلير،
+        ومشروبات مميّزة بطابع <em>سيسام</em>.
+      </p>
+      <div class="hero-cta">
+        <a href="https://www.instagram.com/sesam.sa/" target="_blank" rel="noopener" class="btn btn-primary">
+          اطلب عبر إنستغرام
+        </a>
+        <a href="#visit" class="btn btn-ghost">زُرنا في جدة</a>
+      </div>
+      <ul class="hero-meta">
+        <li><strong>+35K</strong><span>متابع</span></li>
+        <li><strong>155</strong><span>منشور</span></li>
+        <li><strong>2026</strong><span>أفضل مخبز في جدة — Time Out</span></li>
+      </ul>
+    </div>
+    <a href="#about" class="hero-scroll" aria-label="انتقل لأسفل">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- =================== ABOUT =================== -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-images">
+        <div class="about-img about-img-1" style="background-image:url('images/posts/slow_mornings.jpg')"></div>
+        <div class="about-img about-img-2" style="background-image:url('images/posts/fresh_twist.jpg')"></div>
+        <div class="about-badge">
+          <span class="about-badge-num">2026</span>
+          <span class="about-badge-text">أفضل مخبز في جدة<br/>Time Out Awards</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="eyebrow eyebrow-dark">حكاية تُخبز على مهل</span>
+        <h2 class="section-title">
+          في <em>سيسام</em>،<br/>
+          لكل طبقة حكاية.
+        </h2>
+        <p>
+          نؤمن أن الذوق الرفيع يبدأ من اختيارات صغيرة: زبدة طازجة، خميرة طبيعية،
+          ووقتٌ كافٍ للطبقات الذهبية لتأخذ وقتها. نُحضّر مخبوزاتنا ومشروباتنا
+          يوميًا في المحمدية — جدة، ونُقدّمها كطقس صباحي بطيء، لا كمنتج سريع.
+        </p>
+        <p class="about-credits">
+          تأسست <strong>سيسام</strong> على يد الشيف <strong>غفران الرميحي</strong>،
+          وهي الحكاية الشقيقة لمطعم <em>ياشي</em> الآسيوي في جدة.
+        </p>
+        <a href="https://www.instagram.com/ghofran.alromaihy/" target="_blank" rel="noopener" class="link-arrow">
+          تعرّفوا على الشيف غفران
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M15 6l-6 6 6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== CRAFT / CATEGORIES =================== -->
+  <section class="craft" id="craft">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow eyebrow-dark">ماذا نُقدّم</span>
+        <h2 class="section-title">
+          صنعتنا،<br/>
+          <em>من أفراننا إلى يدك.</em>
+        </h2>
+        <p class="section-sub">
+          ثلاثة محاور نُتقنها يوميًا في سيسام — المخبوزات، المشروبات، وبوكسات
+          المناسبات. كل قطعة تُحضَّر باليد، وتخرج من الفرن في وقتها.
+        </p>
+      </div>
+      <div class="craft-grid">
+        <article class="craft-card">
+          <div class="craft-card-img" style="background-image:url('images/posts/fresh_twist.jpg')"></div>
+          <div class="craft-card-body">
+            <h3>المخبوزات الحرفية</h3>
+            <p class="craft-card-en">Artisan Bakery</p>
+            <p>
+              كرواسون زبدة، دانش الفاكهة الباسيون، إكلير الشوكولاتة، بَبْكا،
+              ومعجنات يومية تُحضَّر باليد من أفضل المكونات.
+            </p>
+            <ul class="craft-tags">
+              <li>كرواسون</li><li>دانش</li><li>إكلير</li><li>بَبْكا</li>
+            </ul>
+          </div>
+        </article>
+        <article class="craft-card craft-card-featured">
+          <div class="craft-card-img" style="background-image:url('images/posts/drinks_summer.jpg')"></div>
+          <div class="craft-card-body">
+            <h3>المشروبات المميّزة</h3>
+            <p class="craft-card-en">Signature Drinks</p>
+            <p>
+              ماتشا كريمي، بينا كولادا استوائية، كركديه بنكهات أصيلة، وقهوة
+              مختصة — صيفيات سيسام بانتعاشٍ لا يُقاوَم.
+            </p>
+            <ul class="craft-tags">
+              <li>ماتشا</li><li>بينيا كولادا</li><li>كركديه</li><li>قهوة</li>
+            </ul>
+          </div>
+        </article>
+        <article class="craft-card">
+          <div class="craft-card-img" style="background-image:url('images/posts/golden_story.jpg')"></div>
+          <div class="craft-card-body">
+            <h3>بوكسات المناسبات</h3>
+            <p class="craft-card-en">Occasion Boxes</p>
+            <p>
+              بوكس العيد السنوي وبوكسات هدايا مصمّمة بعناية، لتُشارك لحظة
+              مميزة مع من تحب.
+            </p>
+            <ul class="craft-tags">
+              <li>العيد</li><li>هدايا</li><li>بوكسات</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== FEATURED REELS =================== -->
+  <section class="reels" id="reels">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">من الكواليس</span>
+        <h2 class="section-title">
+          لحظات <em>سيسام</em>،<br/>
+          كما نعيشها يوميًا.
+        </h2>
+        <p class="section-sub">
+          مقاطع قصيرة من يومنا في الفرن — كواليس التحضير، طبقات تتشكّل، ومشروبات
+          تُصبّ بعناية. تابعونا على إنستغرام لمشاهدة المزيد.
+        </p>
+      </div>
+
+      <div class="reels-grid">
+        <!-- Reel 1 -->
+        <figure class="reel">
+          <div class="reel-frame">
+            <iframe
+              src="https://www.instagram.com/reel/DXByC2IDD5_/embed/?autoplay=1&muted=1&loop=1&playsinline=1"
+              title="A Symphony of SESAM — ريل"
+              loading="lazy"
+              allow="autoplay; encrypted-media; picture-in-picture; clipboard-write"
+              allowfullscreen
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <a href="https://www.instagram.com/sesam.sa/reel/DXByC2IDD5_/" target="_blank" rel="noopener" class="reel-overlay-link" aria-label="افتح على إنستغرام"></a>
+          </div>
+          <figcaption>
+            <span class="reel-tag">ريل · 12 أبريل 2026</span>
+            <h3>A Symphony of SESAM</h3>
+            <p>سيمفونية من المخبوزات والقهوة — لمحة عن صباح في سيسام.</p>
+          </figcaption>
+        </figure>
+
+        <!-- Reel 2 -->
+        <figure class="reel reel-highlight">
+          <div class="reel-frame">
+            <iframe
+              src="https://www.instagram.com/reel/DV9Wc80DDy8/embed/?autoplay=1&muted=1&loop=1&playsinline=1"
+              title="بوكس العيد السنوي — ريل"
+              loading="lazy"
+              allow="autoplay; encrypted-media; picture-in-picture; clipboard-write"
+              allowfullscreen
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <a href="https://www.instagram.com/sesam.sa/reel/DV9Wc80DDy8/" target="_blank" rel="noopener" class="reel-overlay-link" aria-label="افتح على إنستغرام"></a>
+            <span class="reel-badge">الأكثر تفاعلًا · 2.6K إعجاب</span>
+          </div>
+          <figcaption>
+            <span class="reel-tag">بوكس · 16 مارس 2026</span>
+            <h3>بوكس العيد السنوي</h3>
+            <p>بوكس العيد السنوي من سيسام بحلته الجديدة 🥐💛✨</p>
+          </figcaption>
+        </figure>
+
+        <!-- Reel 3 -->
+        <figure class="reel">
+          <div class="reel-frame">
+            <iframe
+              src="https://www.instagram.com/reel/DYwwPGpsEsp/embed/?autoplay=1&muted=1&loop=1&playsinline=1"
+              title="صيفيات سيسام — ريل"
+              loading="lazy"
+              allow="autoplay; encrypted-media; picture-in-picture; clipboard-write"
+              allowfullscreen
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <a href="https://www.instagram.com/sesam.sa/reel/DYwwPGpsEsp/" target="_blank" rel="noopener" class="reel-overlay-link" aria-label="افتح على إنستغرام"></a>
+          </div>
+          <figcaption>
+            <span class="reel-tag">ريل · 25 مايو 2026</span>
+            <h3>صيفيات سيسام</h3>
+            <p>من الماتشا الكريمي إلى بينا كولادا الاستوائية وانتعاش الكركديه 🍵🍍❤️</p>
+          </figcaption>
+        </figure>
+
+        <!-- Reel 4 -->
+        <figure class="reel">
+          <div class="reel-frame">
+            <iframe
+              src="https://www.instagram.com/reel/DYpKIvdsMck/embed/?autoplay=1&muted=1&loop=1&playsinline=1"
+              title="دانش الفاكهة الباسيون — ريل"
+              loading="lazy"
+              allow="autoplay; encrypted-media; picture-in-picture; clipboard-write"
+              allowfullscreen
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <a href="https://www.instagram.com/sesam.sa/reel/DYpKIvdsMck/" target="_blank" rel="noopener" class="reel-overlay-link" aria-label="افتح على إنستغرام"></a>
+          </div>
+          <figcaption>
+            <span class="reel-tag">جديد · 22 مايو 2026</span>
+            <h3>دانش الفاكهة الباسيون</h3>
+            <p>لحظة ذهبية صغيرة، صُنعت للصيف ✨ تعرّف على دانش الباسيون الجديد 💛</p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="reels-cta">
+        <a href="https://www.instagram.com/sesam.sa/reels/" target="_blank" rel="noopener" class="btn btn-primary">
+          شاهدوا جميع الريلز على إنستغرام
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== GALLERY =================== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-head gallery-head">
+        <div>
+          <span class="eyebrow eyebrow-dark">من يومنا</span>
+          <h2 class="section-title">
+            معرض <em>سيسام</em>.
+          </h2>
+          <p class="section-sub">
+            اسحبوا لاستكشاف لقطات من يومنا في الفرن — كل صورة من حسابنا على إنستغرام،
+            بدون أي محتوى خارجي.
+          </p>
+        </div>
+        <div class="gallery-controls" aria-label="أزرار التنقل">
+          <button type="button" class="gallery-btn" id="galleryPrev" aria-label="السابق">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M9 6l6 6-6 6"/></svg>
+          </button>
+          <button type="button" class="gallery-btn" id="galleryNext" aria-label="التالي">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M15 6l-6 6 6 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-scroller" id="galleryScroller" tabindex="0" aria-label="معرض صور سيسام">
+      <article class="gallery-card gallery-card-tall" style="--card-accent:#b89968">
+        <a href="https://www.instagram.com/sesam.sa/p/DY6-Te8sBa6/" target="_blank" rel="noopener" class="gallery-card-media">
+          <img src="images/posts/drinks_summer.jpg" alt="مشروبات مميزة في سيسام" loading="lazy" />
+        </a>
+        <div class="gallery-card-info">
+          <span class="gallery-card-num">٠١</span>
+          <h3>صيفيات سيسام</h3>
+          <p>مشروبات مميّزة بطابع بيتنا — ماتشا، بينا كولادا، كركديه.</p>
+          <a href="https://www.instagram.com/sesam.sa/p/DY6-Te8sBa6/" target="_blank" rel="noopener" class="gallery-card-link">شاهد على إنستغرام</a>
+        </div>
+      </article>
+
+      <article class="gallery-card" style="--card-accent:#c5bea4">
+        <a href="https://www.instagram.com/sesam.sa/p/DYHatV8jODL/" target="_blank" rel="noopener" class="gallery-card-media">
+          <img src="images/posts/slow_mornings.jpg" alt="صباح بطيء مع قهوة وكروسان في سيسام" loading="lazy" />
+        </a>
+        <div class="gallery-card-info">
+          <span class="gallery-card-num">٠٢</span>
+          <h3>صباح بطيء</h3>
+          <p>كرواسون، قهوة، ووقتٌ كافٍ.</p>
+          <a href="https://www.instagram.com/sesam.sa/p/DYHatV8jODL/" target="_blank" rel="noopener" class="gallery-card-link">شاهد على إنستغرام</a>
+        </div>
+      </article>
+
+      <article class="gallery-card gallery-card-tall" style="--card-accent:#77715b">
+        <a href="https://www.instagram.com/sesam.sa/p/DX9IJdFs9HJ/" target="_blank" rel="noopener" class="gallery-card-media">
+          <img src="images/posts/elegance_layers.jpg" alt="إكلير ومعجنات فاخرة في سيسام" loading="lazy" />
+        </a>
+        <div class="gallery-card-info">
+          <span class="gallery-card-num">٠٣</span>
+          <h3>أناقة الطبقات</h3>
+          <p>إكلير ومعجنات تليق بلحظة مميزة.</p>
+          <a href="https://www.instagram.com/sesam.sa/p/DX9IJdFs9HJ/" target="_blank" rel="noopener" class="gallery-card-link">شاهد على إنستغرام</a>
+        </div>
+      </article>
+
+      <article class="gallery-card" style="--card-accent:#b89968">
+        <a href="https://www.instagram.com/sesam.sa/p/DX1KcQeDO_e/" target="_blank" rel="noopener" class="gallery-card-media">
+          <img src="images/posts/fresh_twist.jpg" alt="كرواسون وبابكا طازجة من الفرن" loading="lazy" />
+        </a>
+        <div class="gallery-card-info">
+          <span class="gallery-card-num">٠٤</span>
+          <h3>طازج من الفرن</h3>
+          <p>كرواسون، بابكا، ولفائف يومية.</p>
+          <a href="https://www.instagram.com/sesam.sa/p/DX1KcQeDO_e/" target="_blank" rel="noopener" class="gallery-card-link">شاهد على إنستغرام</a>
+        </div>
+      </article>
+
+      <article class="gallery-card gallery-card-wide" style="--card-accent:#c5bea4">
+        <a href="https://www.instagram.com/sesam.sa/p/DXqp8XCDMQr/" target="_blank" rel="noopener" class="gallery-card-media">
+          <img src="images/posts/golden_story.jpg" alt="طبقات ذهبية من المخبوزات في سيسام" loading="lazy" />
+        </a>
+        <div class="gallery-card-info">
+          <span class="gallery-card-num">٠٥</span>
+          <h3>حكاية طبقات</h3>
+          <p>كل طبقة تروي حكاية، ذهبية وهشّة.</p>
+          <a href="https://www.instagram.com/sesam.sa/p/DXqp8XCDMQr/" target="_blank" rel="noopener" class="gallery-card-link">شاهد على إنستغرام</a>
+        </div>
+      </article>
+
+      <article class="gallery-card gallery-card-tall" style="--card-accent:#77715b">
+        <a href="https://www.instagram.com/sesam.sa/p/DXeS0IujJGJ/" target="_blank" rel="noopener" class="gallery-card-media">
+          <img src="images/posts/sesam_brunch.jpg" alt="برانش كامل من حلويات وقهوة في سيسام" loading="lazy" />
+        </a>
+        <div class="gallery-card-info">
+          <span class="gallery-card-num">٠٦</span>
+          <h3>برانش سيسام</h3>
+          <p>حلويات، قهوة، وكابتشينو — كل ما يلزم صباحًا.</p>
+          <a href="https://www.instagram.com/sesam.sa/p/DXeS0IujJGJ/" target="_blank" rel="noopener" class="gallery-card-link">شاهد على إنستغرام</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="container">
+      <div class="gallery-progress" aria-hidden="true">
+        <div class="gallery-progress-bar" id="galleryProgress"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== WHY US =================== -->
+  <section class="why" id="why">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">لماذا سيسام</span>
+        <h2 class="section-title">
+          ما الذي يجعلنا <em>مختلفين</em>؟
+        </h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-item">
+          <div class="why-num">01</div>
+          <h3>يُحضَّر يوميًا</h3>
+          <p>لا نُقدّم شيئًا من الأمس. كل ما يخرج من فرننا خرج اليوم، في وقته.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-num">02</div>
+          <h3>بمكونات صادقة</h3>
+          <p>زبدة طازجة، خميرة طبيعية، مكونات نعرف مصدرها ونتّكل عليها.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-num">03</div>
+          <h3>بطابع سعودي</h3>
+          <p>من قلب المحمدية في جدة، بأيدٍ سعودية، وحكاية نرويها بكل فخر.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-num">04</div>
+          <h3>تجربة لا تُنسى</h3>
+          <p>إفطارٌ بطيء، قهوة تُصبّ بعناية، ولحظة تليق بمن تحب.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== VISIT / CONTACT =================== -->
+  <section class="visit" id="visit">
+    <div class="container visit-grid">
+      <div class="visit-info">
+        <span class="eyebrow">زورونا · اطلبوا · تواصلوا</span>
+        <h2 class="section-title">
+          تعالوا نُخبز<br/>
+          <em>لكم لحظة.</em>
+        </h2>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">العنوان</span>
+            <span class="contact-value">3718 شارع آمنة بنت وهب، حي المحمدية، جدة 23621</span>
+          </li>
+          <li>
+            <span class="contact-label">الهاتف</span>
+            <a class="contact-value" href="tel:+966555060750" dir="ltr">+966 55 506 0750</a>
+          </li>
+          <li>
+            <span class="contact-label">إنستغرام</span>
+            <a class="contact-value" href="https://www.instagram.com/sesam.sa/" target="_blank" rel="noopener" dir="ltr">@sesam.sa</a>
+          </li>
+          <li>
+            <span class="contact-label">الموقع الإلكتروني</span>
+            <a class="contact-value" href="https://sesamsa.com" target="_blank" rel="noopener" dir="ltr">sesamsa.com</a>
+          </li>
+        </ul>
+        <div class="visit-cta">
+          <a href="https://www.instagram.com/sesam.sa/" target="_blank" rel="noopener" class="btn btn-primary">
+            احجزوا عبر إنستغرام
+          </a>
+        </div>
+      </div>
+      <div class="visit-hours">
+        <h3>ساعات العمل</h3>
+        <ul class="hours-list">
+          <li><span>الإثنين – الخميس والسبت</span><span dir="ltr">06:00 – 14:00</span></li>
+          <li><span>الجمعة</span><span dir="ltr">06:00 – 12:00 · 13:00 – 15:00</span></li>
+          <li class="closed"><span>الأحد</span><span>مغلق</span></li>
+        </ul>
+        <div class="map-card" aria-label="موقع سيسام على الخريطة">
+          <iframe
+            src="https://www.google.com/maps?q=Al-Mohammadiyyah,+Jeddah&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="موقع سيسام على الخريطة"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== FAQ =================== -->
+  <section class="faq" id="faq">
+    <div class="container faq-container">
+      <div class="section-head">
+        <span class="eyebrow eyebrow-dark">أسئلة شائعة</span>
+        <h2 class="section-title">
+          قبل ما <em>تزروننا</em>.
+        </h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>هل تشحنون خارج جدة؟</summary>
+          <p>في الوقت الحالي نخدم زبائننا في الفرع مباشرة. لمتابعة آخر التحديثات، تابعوا <a href="https://www.instagram.com/sesam.sa/" target="_blank" rel="noopener">@sesam.sa</a> على إنستغرام.</p>
+        </details>
+        <details>
+          <summary>هل تصنعون بوكسات مخصصة؟</summary>
+          <p>نعم، نُصمّم بوكسات مخصصة للمناسبات والهدايا. تواصلوا معنا عبر الرسائل المباشرة على إنستغرام وسنُسعد بالتفاصيل.</p>
+        </details>
+        <details>
+          <summary>هل تتوفر خيارات نباتية؟</summary>
+          <p>لدينا تشكيلة متنوعة تُجدَّد يوميًا، ويسعدنا اقتراح الأنسب لكم عند الزيارة. أخبرونا بأي حساسية أو تفضيل، وسنرشدكم لأنسب ما لدينا.</p>
+        </details>
+        <details>
+          <summary>هل يمكن الحجز المسبق؟</summary>
+          <p>بوكسات المناسبات الكبيرة تحتاج حجزًا مسبقًا قبل ٢٤–٤٨ ساعة. للطلبات الفردية، يكفيكم القدوم مباشرة.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== FINAL CTA =================== -->
+  <section class="final-cta">
+    <div class="container final-cta-inner">
+      <h2>
+        <span>تعالوا نُخبز</span>
+        <em>لكم لحظة لا تُنسى.</em>
+      </h2>
+      <a href="https://www.instagram.com/sesam.sa/" target="_blank" rel="noopener" class="btn btn-primary btn-large">
+        احجزوا عبر إنستغرام
+      </a>
+    </div>
+  </section>
+
+  <!-- =================== FOOTER =================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand">
+          <span class="brand-mark">
+            <img src="images/profile/avatar.jpg" alt="SESAM logo" />
+          </span>
+          <span class="brand-text">
+            <span class="brand-name-ar">سيسام</span>
+            <span class="brand-name-en">SESAM</span>
+          </span>
+        </div>
+        <p>مخبوزات حرفية تُحضّر يوميًا بكل حب في المحمدية، جدة.</p>
+        <p class="footer-award">🏆 أفضل مخبز في جدة 2026 — Time Out</p>
+      </div>
+      <div class="footer-col">
+        <h4>روابط</h4>
+        <ul>
+          <li><a href="#about">حكاية سيسام</a></li>
+          <li><a href="#craft">صنعتنا</a></li>
+          <li><a href="#reels">من الكواليس</a></li>
+          <li><a href="#gallery">المعرض</a></li>
+          <li><a href="#visit">زورونا</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>تواصل</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/sesam.sa/" target="_blank" rel="noopener">إنستغرام · @sesam.sa</a></li>
+          <li><a href="tel:+966555060750" dir="ltr">+966 55 506 0750</a></li>
+          <li><a href="https://sesamsa.com" target="_blank" rel="noopener" dir="ltr">sesamsa.com</a></li>
+          <li>3718 شارع آمنة بنت وهب<br/>حي المحمدية، جدة 23621</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 SESAM · سيسام. جميع الحقوق محفوظة.</span>
+      <span>صُنع بحب في جدة · Made with love in Jeddah.</span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

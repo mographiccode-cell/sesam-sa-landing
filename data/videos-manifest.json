@@ -1,0 +1,66 @@
+{
+  "videos": [
+    {
+      "id": "reel-01-symphony",
+      "file": "videos/posts/symphony_reel.jpg",
+      "post_url": "https://www.instagram.com/sesam.sa/reel/DXByC2IDD5_/",
+      "post_id": "DXByC2IDD5_",
+      "type": "reel",
+      "date": "2026-04-12",
+      "likes": 62,
+      "comments": 1,
+      "caption_ar": "A Symphony of SESAM 🥐☕️✨",
+      "caption_en": "A Symphony of SESAM",
+      "alt": "A Symphony of SESAM — pastries and coffee styled as a symphony",
+      "category": "featured",
+      "embed_url": "https://www.instagram.com/sesam.sa/reel/DXByC2IDD5_/embed"
+    },
+    {
+      "id": "reel-02-eid-box",
+      "file": "videos/posts/eid_box_reel.jpg",
+      "post_url": "https://www.instagram.com/sesam.sa/reel/DV9Wc80DDy8/",
+      "post_id": "DV9Wc80DDy8",
+      "type": "reel",
+      "date": "2026-03-16",
+      "likes": 2600,
+      "comments": 63,
+      "caption_ar": "بوكس العيد السنوي من سيسام بحلته الجديدة 🥐💛✨",
+      "caption_en": "SESAM annual Eid box, in its new look",
+      "alt": "SESAM annual Eid bakery box in its new design",
+      "category": "featured",
+      "embed_url": "https://www.instagram.com/sesam.sa/reel/DV9Wc80DDy8/embed"
+    },
+    {
+      "id": "reel-03-summer-sips",
+      "file": "videos/posts/summer_sips_reel.jpg",
+      "post_url": "https://www.instagram.com/sesam.sa/reel/DYwwPGpsEsp/",
+      "post_id": "DYwwPGpsEsp",
+      "type": "reel",
+      "date": "2026-05-25",
+      "caption_ar": "من الماتشا الكريمي إلى بينا كولادا الاستوائية وانتعاش الكركديه 🍵🍍❤️ — صيفيات سيسام ✨",
+      "caption_en": "from creamy Matcha to tropical Piña Colada and a refreshing splash of Karkadeh — summer sips, the SESAM way",
+      "alt": "Summer sips: Matcha, Piña Colada, and Karkadeh drinks at SESAM",
+      "category": "drinks",
+      "embed_url": "https://www.instagram.com/sesam.sa/reel/DYwwPGpsEsp/embed"
+    },
+    {
+      "id": "reel-04-passion-fruit",
+      "file": "videos/posts/passion_fruit_reel.jpg",
+      "post_url": "https://www.instagram.com/sesam.sa/reel/DYpKIvdsMck/",
+      "post_id": "DYpKIvdsMck",
+      "type": "reel",
+      "date": "2026-05-22",
+      "caption_ar": "لحظة ذهبية صغيرة، صُنعت للصيف ✨ تعرّف على دانش الفاكهة الباسيون الجديد 💛",
+      "caption_en": "A little golden moment, made for summer. Introducing our new Passion Fruit Danish",
+      "alt": "Introducing the new Passion Fruit Danish at SESAM",
+      "category": "bakery",
+      "embed_url": "https://www.instagram.com/sesam.sa/reel/DYpKIvdsMck/embed"
+    }
+  ],
+  "notes": [
+    "Reels are referenced via their public Instagram URLs (no direct .mp4 download).",
+    "Each reel uses the official Instagram embed URL on the landing page.",
+    "Local .jpg files in /videos/posts/ are used as poster / cover frames in the gallery.",
+    "Cover frames for unused reels (eid_mubarak, peanut_butter) are kept on disk for future use."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "categories": [
+    {
+      "id": "bakery",
+      "name_ar": "المخبوزات الحرفية",
+      "name_en": "Artisan Bakery",
+      "description_ar": "كرواسون، دانش، إكلير، بَبْكا، ومعجنات يومية تُحضَّر باليد من أفضل المكونات.",
+      "description_en": "Croissants, Danish, eclairs, babka and daily pastries — handmade daily from the finest ingredients.",
+      "image": "images/posts/fresh_twist.jpg",
+      "tags": ["croissant", "danish", "eclair", "babka", "buns"]
+    },
+    {
+      "id": "drinks",
+      "name_ar": "المشروبات المميّزة",
+      "name_en": "Signature Drinks",
+      "description_ar": "ماتشا، بينا كولادا، كركديه، قهوة مختصة، ومشروبات صيفية منعشة بطابع سيسام.",
+      "description_en": "Matcha, Piña Colada, Karkadeh, specialty coffee and refreshing summer drinks — the SESAM way.",
+      "image": "images/posts/drinks_summer.jpg",
+      "tags": ["matcha", "pina colada", "karkadeh", "coffee", "iced"]
+    },
+    {
+      "id": "boxes",
+      "name_ar": "بوكسات المناسبات",
+      "name_en": "Occasion Boxes",
+      "description_ar": "بوكس العيد السنوي وبوكسات الهدايا المصمّمة بعناية لمشاركة لحظة مميزة.",
+      "description_en": "The annual Eid box and gift boxes designed to share a special moment.",
+      "image": "images/posts/golden_story.jpg",
+      "tags": ["eid", "gift", "box", "celebration"]
+    }
+  ],
+  "signature_items": [
+    {
+      "name_ar": "كرواسون زبدة الفول السوداني ومربّى الفراولة",
+      "name_en": "Peanut Butter & Strawberry Jam Croissant",
+      "tag_ar": "من أشهر ابتكاراتنا",
+      "tag_en": "One of our most loved signatures",
+      "image_hint": "videos/posts/peanut_butter_reel.jpg"
+    },
+    {
+      "name_ar": "دانش الفاكهة الباسيون",
+      "name_en": "Passion Fruit Danish",
+      "tag_ar": "جديد الصيف",
+      "tag_en": "New for summer",
+      "image_hint": "videos/posts/passion_fruit_reel.jpg"
+    },
+    {
+      "name_ar": "بوكس العيد السنوي",
+      "name_en": "Annual Eid Box",
+      "tag_ar": "باقة مختارة من المخبوزات",
+      "tag_en": "A curated collection of our bakes",
+      "image_hint": "videos/posts/eid_box_reel.jpg"
+    },
+    {
+      "name_ar": "مشروبات الماتشا والكركديه",
+      "name_en": "Matcha & Karkadeh Drinks",
+      "tag_ar": "انتعاش صيفي بنكهات أصيلة",
+      "tag_en": "Summer refreshment with authentic flavors",
+      "image_hint": "videos/posts/summer_sips_reel.jpg"
+    }
+  ],
+  "ordering": {
+    "instagram_dm": "https://www.instagram.com/sesam.sa/",
+    "phone": "+966555060750",
+    "phone_display": "+966 55 506 0750",
+    "visit_in_store": "3718 Amna Bint Wahb St, JENE7458, Jeddah 23621"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "images": {
+    "profile_avatar": {
+      "file": "images/profile/avatar.jpg",
+      "source": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-19/610633272_18070856261429189_5396972334349950489_n.jpg",
+      "size": "150x150",
+      "usage": "Header logo, brand mark, favicon"
+    }
+  },
+  "post_images": [
+    {
+      "file": "images/posts/drinks_summer.jpg",
+      "post_id": "DY6-Te8sBa6",
+      "post_url": "https://www.instagram.com/sesam.sa/p/DY6-Te8sBa6/",
+      "source": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/708854079_18085776563429189_5242082340888038379_n.jpg",
+      "size_kb": 1606,
+      "category": "drinks"
+    },
+    {
+      "file": "images/posts/slow_mornings.jpg",
+      "post_id": "DYHatV8jODL",
+      "post_url": "https://www.instagram.com/sesam.sa/p/DYHatV8jODL/",
+      "source": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/687837889_18083628959429189_8081282827938092334_n.jpg",
+      "size_kb": 562,
+      "category": "bakery"
+    },
+    {
+      "file": "images/posts/elegance_layers.jpg",
+      "post_id": "DX9IJdFs9HJ",
+      "post_url": "https://www.instagram.com/sesam.sa/p/DX9IJdFs9HJ/",
+      "source": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/684654151_18083226716429189_125198750914144850_n.jpg",
+      "size_kb": 227,
+      "category": "bakery"
+    },
+    {
+      "file": "images/posts/fresh_twist.jpg",
+      "post_id": "DX1KcQeDO_e",
+      "post_url": "https://www.instagram.com/sesam.sa/p/DX1KcQeDO_e/",
+      "source": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/682250270_18082903877429189_1170613310191387203_n.jpg",
+      "size_kb": 442,
+      "category": "bakery"
+    },
+    {
+      "file": "images/posts/golden_story.jpg",
+      "post_id": "DXqp8XCDMQr",
+      "post_url": "https://www.instagram.com/sesam.sa/p/DXqp8XCDMQr/",
+      "source": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/683941714_18082501070429189_6555148972495089129_n.jpg",
+      "size_kb": 562,
+      "category": "bakery"
+    },
+    {
+      "file": "images/posts/sesam_brunch.jpg",
+      "post_id": "DXeS0IujJGJ",
+      "post_url": "https://www.instagram.com/sesam.sa/p/DXeS0IujJGJ/",
+      "source": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/675443798_18081969950429189_4431841949278324082_n.jpg",
+      "size_kb": 723,
+      "category": "bakery"
+    }
+  ],
+  "reel_cover_images": [
+    {
+      "file": "videos/posts/symphony_reel.jpg",
+      "post_id": "DXByC2IDD5_",
+      "post_url": "https://www.instagram.com/sesam.sa/reel/DXByC2IDD5_/"
+    },
+    {
+      "file": "videos/posts/eid_box_reel.jpg",
+      "post_id": "DV9Wc80DDy8",
+      "post_url": "https://www.instagram.com/sesam.sa/reel/DV9Wc80DDy8/"
+    },
+    {
+      "file": "videos/posts/eid_mubarak_reel.jpg",
+      "post_id": "DY1oi0UsI6q",
+      "post_url": "https://www.instagram.com/sesam.sa/reel/DY1oi0UsI6q/"
+    },
+    {
+      "file": "videos/posts/summer_sips_reel.jpg",
+      "post_id": "DYwwPGpsEsp",
+      "post_url": "https://www.instagram.com/sesam.sa/reel/DYwwPGpsEsp/"
+    },
+    {
+      "file": "videos/posts/passion_fruit_reel.jpg",
+      "post_id": "DYpKIvdsMck",
+      "post_url": "https://www.instagram.com/sesam.sa/reel/DYpKIvdsMck/"
+    },
+    {
+      "file": "videos/posts/peanut_butter_reel.jpg",
+      "post_id": "Cw7uA_9tNCt",
+      "post_url": "https://www.instagram.com/sesam.sa/reel/Cw7uA_9tNCt/"
+    }
+  ],
+  "total_count": 13,
+  "source_note": "All images downloaded from public scontent.cdninstagram.com URLs that belong exclusively to @sesam.sa posts.",
+  "license_note": "All assets are public Instagram CDN images of the @sesam.sa account itself, used to build a promotional landing page for that exact account."
+}

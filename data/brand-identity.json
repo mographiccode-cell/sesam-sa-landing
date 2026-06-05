@@ -1,0 +1,110 @@
+{
+  "branding": {
+    "logo_type": "profile",
+    "logo_file": "images/profile/avatar.jpg",
+    "logo_alt": "SESAM artisan bakery logo",
+    "wordmark": "SESAM",
+    "wordmark_ar": "سيسام"
+  },
+  "colors": {
+    "primary": {
+      "name": "Sesam Olive",
+      "hex": "#77715b",
+      "rgb": "119, 113, 91",
+      "usage": "Headings, primary buttons, dark accents"
+    },
+    "primary_dark": {
+      "name": "Sesam Dark Espresso",
+      "hex": "#2e2b24",
+      "rgb": "46, 43, 36",
+      "usage": "Body text, footer background, strong contrast"
+    },
+    "secondary": {
+      "name": "Sesam Sand",
+      "hex": "#c5bea4",
+      "rgb": "197, 190, 164",
+      "usage": "Section dividers, secondary buttons, hover states"
+    },
+    "accent": {
+      "name": "Sesam Gold",
+      "hex": "#b89968",
+      "rgb": "184, 153, 104",
+      "usage": "Accents, highlights, underlines, badges"
+    },
+    "background": {
+      "name": "Sesam Cream",
+      "hex": "#fbf6f0",
+      "rgb": "251, 246, 240",
+      "usage": "Page background, cards"
+    },
+    "surface": {
+      "name": "Pure White",
+      "hex": "#ffffff",
+      "rgb": "255, 255, 255",
+      "usage": "Card surfaces, inputs"
+    },
+    "text": {
+      "primary": "#2e2b24",
+      "secondary": "#5a564c",
+      "muted": "#8a857a",
+      "on_dark": "#fbf6f0"
+    }
+  },
+  "typography": {
+    "display": {
+      "family": "IBM Plex Sans Arabic",
+      "weights": ["100", "200", "300", "400", "500", "600", "700"],
+      "usage": "All Arabic text — headings, body, navigation, buttons. Primary family for the entire landing page.",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"
+    },
+    "body": {
+      "family": "Jost",
+      "weights": ["300", "400", "500", "600"],
+      "usage": "Latin body, navigation, buttons, small caps UI labels",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap"
+    },
+    "serif": {
+      "family": "Cormorant Garamond",
+      "weights": ["400", "500", "600", "700"],
+      "italic_weights": ["400", "500"],
+      "usage": "Latin display text — small accents like hero EN subtitle, brand name EN, badge numbers, italic emphasis",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+    }
+  },
+  "voice_and_tone": {
+    "language_primary": "Arabic (Gulf / Saudi)",
+    "language_secondary": "English (for international touch / brand name)",
+    "attributes": [
+      "Warm and welcoming",
+      "Refined and elegant",
+      "Craft-focused and authentic",
+      "Celebratory of slowness and ritual",
+      "Confidently local Saudi / Jeddah-rooted"
+    ],
+    "do": [
+      "Use elegant, slow-paced language",
+      "Highlight the artisanal and handmade nature",
+      "Reference mornings, ritual, layers, and time",
+      "Use subtle bilingual touches (AR + EN names/hashtags)"
+    ],
+    "avoid": [
+      "Loud, fast-food-style marketing",
+      "Generic stock-photo language",
+      "Excessive English copy that overshadows Arabic"
+    ]
+  },
+  "design_motifs": [
+    "Layered pastry geometry (rings, swirls, cross-sections)",
+    "Cream / olive / sand palette reflecting baked dough and sesame",
+    "Generous whitespace and slow, breathing layouts",
+    "Thin gold accent rules under headings",
+    "Large serif display type paired with clean sans body",
+    "Round-soft corners on images to feel organic"
+  ],
+  "ui_principles": [
+    "RTL layout (Arabic first)",
+    "Mobile-first responsive",
+    "Soft, photographic imagery (real @sesam.sa Instagram posts)",
+    "Minimal animation: gentle fades and hovers only"
+  ]
+}

@@ -1,0 +1,59 @@
+# SESAM — Account Research (Structured)
+
+> JSON companion to `raw-instagram-notes.md`. Mirrors the same source points for
+> programmatic use in the landing page.
+
+```json
+{
+  "handle": "sesam.sa",
+  "display_name": "SESAM",
+  "tagline": {
+    "ar": "مخبوزات حرفية تُحضّر يوميًا بكل حب",
+    "en": "Artisanal baked with love, fresh every day"
+  },
+  "stats": {
+    "followers": 35000,
+    "posts": 155,
+    "following": 2
+  },
+  "people": {
+    "co_founder": {
+      "name": "Chef Ghofran Alromaihy",
+      "instagram": "@ghofran.alromaihy"
+    },
+    "sister_brand": {
+      "name": "Yashi",
+      "instagram": "@yashi_ksa"
+    }
+  },
+  "location": {
+    "city": "Jeddah",
+    "neighborhood": "Al-Mohammadiyyah",
+    "address": "3718 Amna Bint Wahb St, JENE7458, Jeddah 23621",
+    "country": "Saudi Arabia"
+  },
+  "contact": {
+    "phone": "+966555060750",
+    "phone_display": "+966 55 506 0750",
+    "website": "https://sesamsa.com"
+  },
+  "hours": {
+    "mon_thu_sat": "06:00 - 14:00",
+    "fri": "06:00 - 12:00, 13:00 - 15:00",
+    "sun": "Closed"
+  },
+  "awards": ["Time Out Jeddah Best Bakery 2026"],
+  "content_themes": [
+    "artisan bakery",
+    "signature drinks",
+    "occasion boxes",
+    "seasonal launches",
+    "eid greetings",
+    "slow morning lifestyle"
+  ],
+  "source": [
+    "https://www.instagram.com/sesam.sa/",
+    "https://sesamsa.com"
+  ]
+}
+```

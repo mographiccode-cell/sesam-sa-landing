@@ -1,0 +1,114 @@
+{
+  "profile": {
+    "instagram_handle": "sesam.sa",
+    "name": "SESAM",
+    "tagline_ar": "مخبوزات حرفية تُحضّر يوميًا بكل حب",
+    "tagline_en": "Artisanal baked with love, fresh every day",
+    "bio": "SESAM | مخبوزات حرفية تُحضّر يوميًا بكل حب 🥐",
+    "followers": 35000,
+    "posts_count": 155,
+    "following": 2,
+    "verified": false,
+    "category": "Artisan Bakery",
+    "location": "Al-Mohammadiyyah, Jeddah, Saudi Arabia",
+    "phone": "+966555060750",
+    "phone_display": "+966 55 506 0750",
+    "address": "3718 Amna Bint Wahb St, JENE7458, Jeddah 23621",
+    "website": "https://sesamsa.com",
+    "external_website": "https://sesamsa.com",
+    "co_founder": {
+      "name": "Chef Ghofran Alromaihy",
+      "instagram": "@ghofran.alromaihy"
+    },
+    "awards": [
+      "Time Out Jeddah Best Bakery 2026"
+    ]
+  },
+  "hours": {
+    "mon_thu_sat": "06:00 - 14:00",
+    "fri": "06:00 - 12:00, 13:00 - 15:00",
+    "sun": "Closed"
+  },
+  "hours_display_ar": {
+    "الإثنين - الخميس والسبت": "٦:٠٠ ص - ٢:٠٠ م",
+    "الجمعة": "٦:٠٠ ص - ١٢:٠٠ م ، ١:٠٠ م - ٣:٠٠ م",
+    "الأحد": "مغلق"
+  },
+  "media": {
+    "profile_avatar": "images/profile/avatar.jpg",
+    "posts": [
+      {
+        "id": "post-01-drinks-summer",
+        "file": "images/posts/drinks_summer.jpg",
+        "post_url": "https://www.instagram.com/sesam.sa/p/DY6-Te8sBa6/",
+        "post_id": "DY6-Te8sBa6",
+        "type": "image",
+        "date": "2026-05-29",
+        "caption_ar": "Cool down with our signature refreshing drinks at SESAM🥤✨",
+        "caption_en": "Cool down with our signature refreshing drinks at SESAM",
+        "alt": "SESAM signature refreshing drinks collection in glasses",
+        "category": "drinks"
+      },
+      {
+        "id": "post-02-slow-mornings",
+        "file": "images/posts/slow_mornings.jpg",
+        "post_url": "https://www.instagram.com/sesam.sa/p/DYHatV8jODL/",
+        "post_id": "DYHatV8jODL",
+        "type": "image",
+        "date": "2026-05-09",
+        "caption_ar": "Sesam, crafted for slow mornings and refined tastes☕️🥐",
+        "caption_en": "Sesam, crafted for slow mornings and refined tastes",
+        "alt": "Coffee and pastry setup for a slow refined morning at SESAM",
+        "category": "bakery"
+      },
+      {
+        "id": "post-03-elegance-layers",
+        "file": "images/posts/elegance_layers.jpg",
+        "post_url": "https://www.instagram.com/sesam.sa/p/DX9IJdFs9HJ/",
+        "post_id": "DX9IJdFs9HJ",
+        "type": "image",
+        "date": "2026-05-05",
+        "caption_ar": "Elegance baked into every layer, a taste worth savoring 🎀💗",
+        "caption_en": "Elegance baked into every layer, a taste worth savoring",
+        "alt": "Layered pastries and eclairs arranged elegantly",
+        "category": "bakery"
+      },
+      {
+        "id": "post-04-fresh-twist",
+        "file": "images/posts/fresh_twist.jpg",
+        "post_url": "https://www.instagram.com/sesam.sa/p/DX1KcQeDO_e/",
+        "post_id": "DX1KcQeDO_e",
+        "type": "image",
+        "date": "2026-05-02",
+        "caption_ar": "Fresh out of the oven, with a twist 🌿✨",
+        "caption_en": "Fresh out of the oven, with a twist",
+        "alt": "Babka, croissants, buns fresh from the oven",
+        "category": "bakery"
+      },
+      {
+        "id": "post-05-golden-story",
+        "file": "images/posts/golden_story.jpg",
+        "post_url": "https://www.instagram.com/sesam.sa/p/DXqp8XCDMQr/",
+        "post_id": "DXqp8XCDMQr",
+        "type": "image",
+        "date": "2026-04-28",
+        "caption_ar": "Every layer tells a story… golden, delicate, and made to be savored 🥐✨",
+        "caption_en": "Every layer tells a story… golden, delicate, and made to be savored",
+        "alt": "Golden delicate pastries on a styled board",
+        "category": "bakery"
+      },
+      {
+        "id": "post-06-sesam-brunch",
+        "file": "images/posts/sesam_brunch.jpg",
+        "post_url": "https://www.instagram.com/sesam.sa/p/DXeS0IujJGJ/",
+        "post_id": "DXeS0IujJGJ",
+        "type": "image",
+        "date": "2026-04-23",
+        "caption_ar": "Sesam ☕️🥐",
+        "caption_en": "Sesam",
+        "alt": "A complete brunch spread: macaroons, coffee, cake, tart, cappuccino",
+        "category": "bakery"
+      }
+    ]
+  }
+}
